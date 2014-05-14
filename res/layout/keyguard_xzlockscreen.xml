@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<cro.marin.xperia.locker.BlindsView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blindsview"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:gravity="center" >
+<cro.marin.xperia.locker.Clock
+	android:id="@+id/clock"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_centerInParent="true"
+	android:textColor="@android:color/white"
+	android:textSize="76sp"
+    android:shadowColor="#d000" 
+    android:shadowDx="0" 
+    android:shadowDy="0.3" 
+    android:shadowRadius="0.8"/>
+<TextView
+	android:id="@+id/date"
+    android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textColor="@android:color/white"
+	android:textSize="14sp"
+	android:shadowColor="#000" 
+    android:shadowDx="0" 
+    android:shadowDy="0.3" 
+    android:shadowRadius="0.6"
+	android:layout_marginTop="6.0dip"/>
+<include 
+    android:id="@+id/hint" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_marginBottom="@dimen/lockscreen_hint_margin" 
+    android:layout_marginTop="@dimen/lockscreen_hint_margin" 
+    android:layout_centerHorizontal="true" 
+    layout="@layout/unlock_hint" />
+</cro.marin.xperia.locker.BlindsView>

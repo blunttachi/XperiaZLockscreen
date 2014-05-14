@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">XperiaZLocker</string>    
+    <string name="settings_enable2">Replace default lockscreen with XperiaZLocker</string>
+    <string name="settings_enable">Enable XperiaZLocker</string>
+    <string name="lockscreen_unlock_hint">Swipe up or down to unlock</string>
+
+</resources>
